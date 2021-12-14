@@ -4,21 +4,18 @@ import Routing from '../../pages/Routing';
 import NavBar from '../NavBar/NavBar';
 
 const MainContainer = () => {
+    
     return (
         <Container>
             <Row>
-                <Col></Col>
-                <Col xs={10}>
+                <Col xs={12}>
                     <NavBar></NavBar>
                 </Col>
-                <Col></Col>
             </Row>
             <Row>
-                <Col></Col>
-                <Col xs={10}>
+                <Col xs={12}>
                     <Routing></Routing>
                 </Col>
-                <Col></Col>
             </Row>
         </Container>
     );
